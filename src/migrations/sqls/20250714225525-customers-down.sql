@@ -1,0 +1,12 @@
+DROP TABLE IF EXISTS cart_items;
+DROP TABLE IF EXISTS cart;
+DROP TABLE IF EXISTS order_delivery;
+DROP TABLE IF EXISTS delivery_riders;
+DROP TABLE IF EXISTS order_items;
+DROP TABLE IF EXISTS orders;
+DROP TABLE IF EXISTS menu_items;
+DROP TABLE IF EXISTS restaurants;
+DROP TABLE IF EXISTS customer;
+
+DROP TYPE IF EXISTS order_status;
+DROP TYPE IF EXISTS delivery_status;

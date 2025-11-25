@@ -1,0 +1,7 @@
+buildCommand: npm install && npm run build
+startCommand: npm start
+env:
+  NODE_ENV: production
+  # Add other environment variables as needed
+  # Example: DATABASE_URL: your_database_url_here
+  # Example: API_KEY: your_api_key_here

@@ -1,0 +1,15 @@
+{
+	"development": {
+		"ENV": "GLOVO_DEV_DATABASE_URL"
+	},
+  "staging": {
+		"ENV": "GLOVO_STAGING_DATABASE_URL"
+	},
+	"test": {
+		"ENV": "GLOVO_TEST_DATABASE_URL"
+	},
+	"production": {
+		"ENV": "GLOVO_PRODUCTION_DATABASE_URL"
+	},
+	"sql-file" : true
+}
