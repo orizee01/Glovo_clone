@@ -8,6 +8,7 @@
     "build": "rm -rf dist && tsc",
     "preset": "npm run migrate:up && ts-node script/seedSupperAdmin",
     "prestart": "npm run build && npm run migrate && npm run seed:up",
+    "start:prod": "node dist/server.js",
     "start:dev": "nodemon --exec ts-node ./src/server.ts",
     "migrate": "db-migrate up --migrations-dir=src/migrations --config database.json",
     "migrate:create": "db-migrate create --migrations-dir=src/migrations",

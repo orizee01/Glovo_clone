@@ -9,7 +9,7 @@ dotenv.config({ quiet: true });
 
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || process.env.GLOVO_PORT || 3000;
 
 // Correct usage: pass `app` (Express instance) to the config function
 expressConfig(app);
